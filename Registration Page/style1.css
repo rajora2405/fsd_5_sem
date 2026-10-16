@@ -1,0 +1,11 @@
+#products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+
+    margin: 20px;
+    padding: 20px;
+
+    background-color: #f5f5f5;
+    border-radius: 12px;
+}
